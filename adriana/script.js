@@ -25,7 +25,7 @@
 var images = document.getElementsByClassName('randomimg');   // collect all images in the webpage with a class randomimg into a variable called images
  for (var i = 0, l = images.length; i < l; i++) { // for each image in the variable do the following
   images[i].style.width = Math.floor((Math.random() * 10) + 5) + "%"; // have a random with of between 10 and 40 %
-  images[i].style.left = Math.floor((Math.random() * 50) + 10) + "%"; // have a left margin of between 10 and 60 %
+  images[i].style.left = Math.floor((Math.random() * 35) + 10) + "%"; // have a left margin of between 10 and 60 %
   images[i].style.top = Math.floor((Math.random() * 50) + 10) + "%"; // have a top margin of between 10 and 60 %
 }
 

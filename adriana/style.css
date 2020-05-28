@@ -19,20 +19,29 @@ img {
   src: url("fonts/Avara-Bold_web.otf") format("opentype");
 }
 
-
+hr.new1 {
+    border: 2px;
+    border-style: solid none none none;
+    color: white;
+    width: 100%;
+		margin-top: 5%;
+		height: auto;
+		position: fixed;
+}
 
 .home {
 	position:fixed; /* Position fixed means the element stays always on the same position on the page */
 	background-color: none;
 	background-size: cover;
 	width:80%;
-	top:3%;
+	top:1%;
   font-family: "Avara";
 	color: white;
 	font-size:30px;
 	height:80vh;
 	text-align: center;
 	left:10%;
+	right:10%;
 	margin: 2vh;
 	/* z-index:2;  */
 }
@@ -65,7 +74,7 @@ left:35%;
 	bottom:5%;
 	height:5%;
 	border:0px;
-	left:45%;
+	left:47%;
 	z-index:3;
 	font-size: 30px;
 	color: white;
@@ -87,7 +96,7 @@ left:35%;
  	left:5%;
 	width:90px;
 	height:90px;
-	top:3%;
+	top:1%;
 
 	font-size: 30px;
 	color: white;
@@ -103,7 +112,7 @@ left:35%;
  	right:5%;
 	width:90px;
 	height:90px;
-	top:3%;
+	top:1%;
 
 	font-size: 30px;
 	color: white;
@@ -113,6 +122,7 @@ left:35%;
 .internal{ /* container of the seperate pages with the images */
 	 width: 100%;
 	 height: 90%;
+
 	 top: 10%;
 	 /* border: 1px solid black; */
 	 display: inline-block;
@@ -120,7 +130,9 @@ left:35%;
 	 position:relative; /* Position fixed means the element is positioned relative to other elements on the page */
 }
 .internal .randomimg { /* The images get a maximum width they can have, otherwise they can be bigger than the page itself */
-	max-width:50%;
+	/* max-width:40%; */
+	/* left: 40%; */
+	padding-left: 20vw;
 	height:auto;
 	position:absolute;
 }
@@ -128,6 +140,7 @@ left:35%;
 .center{
 	 width: 100%;
 	 height: 100%;
+	 top: 0;
 	 /* border: 1px solid black; */
 	 margin: 1px;
 	 overflow: hidden; /* No horizontal or vertical scrollbars are allowed */
