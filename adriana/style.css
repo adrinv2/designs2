@@ -14,19 +14,24 @@ img {
 
 }
 
+@font-face {
+  font-family: "Avara";
+  src: url("fonts/Avara-Bold_web.otf") format("opentype");
+}
+
 
 
 .home {
 	position:fixed; /* Position fixed means the element stays always on the same position on the page */
 	background-color: none;
 	background-size: cover;
-	width:160px;
+	width:160vw;
 	top:3%;
-	font-family: 'Exo 2', sans-serif;
-	color: yellow;
-	font-size: 15px;
-	height:80px;
-	left:45%;
+  font-family: "Avara";
+	color: white;
+	font-size:30px;
+	height:80vh;
+	left:40%;
 	z-index:2; /* z-index is the stack order of the different layers. see it as you have a x-axes (horizontal), y-axes (vertical) and the z-axes (stacking order) */
 }
 
