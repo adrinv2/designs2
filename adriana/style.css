@@ -20,11 +20,11 @@ img {
 }
 
 hr.new1 {
-    border: 2px;
+    border: 0.2vw;
     border-style: solid none none none;
     color: white;
     width: 100%;
-		margin-top: 5%;
+		margin-top: 10.5vh;
 		height: auto;
 		position: fixed;
 }
@@ -175,7 +175,7 @@ float: right;
 	padding: 5%;
 	position: absolute;
 	display: block;
-	top: -20%;
+	top: -19%;
 	z-index: 2;
 
 
