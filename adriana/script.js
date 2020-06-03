@@ -39,7 +39,7 @@ var images = document.getElementsByClassName('randomimg');   // collect all imag
 		  });
 	});
 
-	$(document).on('click', ".pineup", function() { // on click on the pineconetext page move the pinecone text down with the height of the webpage
+	$(document).on('click', ".pineconetext", function() { // on click on the pineconetext page move the pinecone text down with the height of the webpage
 		$('.pineconetext').removeClass('pineup'); //Remove the pineup class
 		$('.pinebutton').show(); // Show again the button
 		$('.pineconetext').animate({
