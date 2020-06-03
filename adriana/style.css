@@ -71,6 +71,10 @@ left:2%;
 	display:none;
 }
 
+.dropdown-content:hover .pone{
+	color: rgb(193, 12, 12);
+}
+
 .pinecone {
 	position:absolute;
 	width:10%;
@@ -159,9 +163,9 @@ float: right;
 	padding: 5%;
 	position: absolute;
 	display: block;
-	top: 5%;
+	top: -20%;
 	z-index: 2;
-	/* background-color: blue; */
+
 
 }
 
@@ -194,18 +198,18 @@ float: right;
 
 }
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 0.7vw;
 	    direction: rtl;
 }
 
 
 ::-webkit-scrollbar-track {
-
+background: white;
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: crimson;
+  background: rgb(193, 12, 12);
   border-radius: 10px;
 }
 
