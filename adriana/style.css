@@ -74,11 +74,13 @@ left:2%;
 
 .dropdown-content a {
 	color: black;
+
 }
 
 .dropdown-content a:hover{
 	color: rgb(193, 12, 12);
 	  cursor: pointer;
+		text-decoration: underline rgb(193, 12, 12);
 
 }
 
