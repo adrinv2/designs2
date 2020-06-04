@@ -78,9 +78,9 @@ left:2%;
 }
 
 .dropdown-content a:hover{
-	color: rgb(193, 12, 12);
+	color:rgb(166, 166, 166);
 	  cursor: pointer;
-		text-decoration: underline rgb(193, 12, 12);
+
 
 }
 
